@@ -40,3 +40,5 @@ They are placed in the **C:\Users\<your_user_name>\vimfiles\bundle** folder. Fol
 **Vim-airline**: https://github.com/bling/vim-airline. Useful status bar with some info about the current mode, file line numbers, format etc.
 
 **delimitmate**: https://github.com/raimondi/delimitmate. Parenthesis, brackets, quotes etc. automatic closing.
+
+**vim-workspace**: https://github.com/thaerkh/vim-workspace. Better management for vim sessions.
