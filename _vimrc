@@ -20,7 +20,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-let g:workspace_autocreate = 1 " Enables session tracking for the vim-workspace plugin
+"let g:workspace_autocreate = 1 " Enables session tracking for the vim-workspace plugin
+
 "Line number configs: relative numbers when in Insert mode, absolute number when in insert mode
 :set number relativenumber
 
@@ -48,9 +49,14 @@ set undolevels=1000
 set backspace=indent,eol,start "Making backspace deleting characters while in insert mode
 
 "Mappings
-nmap <C-h> :set hlsearch! <CR> "Toggles highlighting matched characters from search by pressing CTRL-h in normal mode
-nmap <C-t> :tabnew <CR> "Opens a new empty tab by pressing CTRL-t in normal mode
+
+nmap <C-h> :set hlsearch!<CR> "Toggles highlighting matched characters from search by pressing CTRL-h in normal mode
+nmap <C-t> :tabnew<CR> "Opens a new empty tab by pressing CTRL-t in normal mode
 nnoremap <leader>s :ToggleWorkspace<CR> "Toggles Workspace by pressing \s
+vmap <C-c> "+y "copy to clipboard
+vmap <C-x> "+x "cut to clipboard
+nmap <C-p> "+gP "paste from clipboard
+
 
 " Oceanic-next theme configurations
 " for vim 8
